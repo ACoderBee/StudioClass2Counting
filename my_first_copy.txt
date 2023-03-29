@@ -1,0 +1,245 @@
+This is my first file, woowoo!
+
+
+
+arion@LAPTOP-HCL9NMMQ MINGW64 /
+$ ls
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins001.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins001.msg
+bin/               etc/  mingw64/       unins001.dat  usr/
+
+arion@LAPTOP-HCL9NMMQ MINGW64 /
+$ cd~
+bash: cd~: command not found
+
+arion@LAPTOP-HCL9NMMQ MINGW64 /
+$ cd ~
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{10363901-7901-11ec-86f1-106fd9a0652e}.TM.blf
+ NTUSER.DAT{10363901-7901-11ec-86f1-106fd9a0652e}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{10363901-7901-11ec-86f1-106fd9a0652e}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ angular_practice/
+ class24/
+ example
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ package-lock.json
+ tutorial/
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~
+$ cd onedrive
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive
+$ ls
+ AingramResumeISecurityAug2017.pdf
+'Ally _ PaymentHistory.pdf'
+'Ambassador Assignments - July 2022 v7.pdf'
+'Anti-obesity effect of Lactobacillus gasseri SBT2055 accompanied by inhibition of pro-inflammatory gene expression in the visceral adipose tissue i...pdf'
+ Apps/
+'Charvat v_claim1.pdf'
+'Coder Girl.url'
+ Commerical_Driver_License.pdf
+ Desktop/
+ Document.docx
+ Documents/
+'Downloads - Shortcut.lnk'*
+'Email attachments'/
+ Favorites/
+ Filteroster.xlsx
+'Green tea (-)-epigallocatechin-3-gallate reduces body weight with regulation of multiple genes expression in adipose tissue of diet-induced obese m...pdf'
+'KC Water Portal.pdf'
+ Music/
+'NEW The Lean Belly Breakthough Diet Review November 2017  Not What You Thought_ guarantee 1lbperday.html'
+'NEW The Lean Belly Breakthough Diet Review November 2017  Not What You Thought_ guarantee 1lbperday_files'/
+ Neat-4.1.0.187-Release.dmg
+ Neat_v5.4.1.273_FULL.sfx.exe*
+'Personal Vault.lnk'*
+ Pictures/
+ Public/
+'Shared favorites'/
+'Smart View.lnk'*
+'The Insulin Resistance Diet Protocol to Help Prevent Diabetes - Dr.pdf'
+'The development of probiotic treatment in obesity_ a review.pdf'
+'This PC - Shortcut.lnk'*
+'Top Ten Ways To Combat Inflammation - Dr. Charles A. Evans, M.D., Ph.D-Dr. Charles A. Evans, M.D., Ph.pdf'
+ desktop.ini
+'gasTransactions _ Print.pdf'
+ rentalproperty20160706_PC_fire.pdf
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive
+$ cd Desktop
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ ^[[200~
+bash: $'\E[200~': command not found
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ mkdir my_first_directory
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ cd my_first_directory
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ pwd
+/c/Users/arion/onedrive/Desktop/my_first_directory
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ touch my_first_file.txt
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ ls
+my_first_file.txt
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ my_first_file.txt
+bash: my_first_file.txt: command not found
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ edit my_first_file.txt
+bash: edit: command not found
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ start my_first_file.txt
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ ls
+my_first_file.txt
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ cp my_first_file.txt
+cp: missing destination file operand after 'my_first_file.txt'
+Try 'cp --help' for more information.
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ cp my_first_file.txt ../my_first_copy.txt
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ ls
+my_first_file.txt
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ cd .
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop/my_first_directory
+$ cd ..
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ ls
+ 01-Fundamentals-Part-1/                LC101_Homework/            'Qtr Cov'/
+ 100DEVS/                               MEmu.lnk*                  'Visual Studio Code.lnk'*
+ 8CG6320LFC/                           'Microsoft Edge.lnk'*        aringram05.lnk*
+'Andrea (Person 1) - Chrome.lnk'*       Multi-MEmu.lnk*             desktop.ini
+ Discord.lnk*                           Notion.lnk*                 hpdiagnostics/
+ Evernote.lnk*                         'Old Firefox Data'/          my_first_copy.txt
+'GitHub Desktop.lnk'*                   PicDesktop/                 my_first_directory/
+ Grammarly.lnk*                        'Pictures - Shortcut.lnk'*   project/
+'Interesting Finds Updated Daily.url'   Projects/
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ start my_first_copy.txt
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ cd ..
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive
+$ cd Desktop
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ ls
+ 01-Fundamentals-Part-1/                LC101_Homework/            'Qtr Cov'/
+ 100DEVS/                               MEmu.lnk*                  'Visual Studio Code.lnk'*
+ 8CG6320LFC/                           'Microsoft Edge.lnk'*        aringram05.lnk*
+'Andrea (Person 1) - Chrome.lnk'*       Multi-MEmu.lnk*             desktop.ini
+ Discord.lnk*                           Notion.lnk*                 hpdiagnostics/
+ Evernote.lnk*                         'Old Firefox Data'/          my_first_copy.txt
+'GitHub Desktop.lnk'*                   PicDesktop/                 my_first_directory/
+ Grammarly.lnk*                        'Pictures - Shortcut.lnk'*   project/
+'Interesting Finds Updated Daily.url'   Projects/
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ rm -r my_first_directory
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ ls
+ 01-Fundamentals-Part-1/                LC101_Homework/            'Qtr Cov'/
+ 100DEVS/                               MEmu.lnk*                  'Visual Studio Code.lnk'*
+ 8CG6320LFC/                           'Microsoft Edge.lnk'*        aringram05.lnk*
+'Andrea (Person 1) - Chrome.lnk'*       Multi-MEmu.lnk*             desktop.ini
+ Discord.lnk*                           Notion.lnk*                 hpdiagnostics/
+ Evernote.lnk*                         'Old Firefox Data'/          my_first_copy.txt
+'GitHub Desktop.lnk'*                   PicDesktop/                 project/
+ Grammarly.lnk*                        'Pictures - Shortcut.lnk'*
+'Interesting Finds Updated Daily.url'   Projects/
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ cd .
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ start
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ start my_first_file.txt
+The system cannot find the file my_first_file.txt.
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ ls
+ 01-Fundamentals-Part-1/                LC101_Homework/            'Qtr Cov'/
+ 100DEVS/                               MEmu.lnk*                  'Visual Studio Code.lnk'*
+ 8CG6320LFC/                           'Microsoft Edge.lnk'*        aringram05.lnk*
+'Andrea (Person 1) - Chrome.lnk'*       Multi-MEmu.lnk*             desktop.ini
+ Discord.lnk*                           Notion.lnk*                 hpdiagnostics/
+ Evernote.lnk*                         'Old Firefox Data'/          my_first_copy.txt
+'GitHub Desktop.lnk'*                   PicDesktop/                 project/
+ Grammarly.lnk*                        'Pictures - Shortcut.lnk'*
+'Interesting Finds Updated Daily.url'   Projects/
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/Desktop
+$ cd ..
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive
+$ cd desktop
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/desktop
+$ ls
+ 01-Fundamentals-Part-1/                LC101_Homework/            'Qtr Cov'/
+ 100DEVS/                               MEmu.lnk*                  'Visual Studio Code.lnk'*
+ 8CG6320LFC/                           'Microsoft Edge.lnk'*        aringram05.lnk*
+'Andrea (Person 1) - Chrome.lnk'*       Multi-MEmu.lnk*             desktop.ini
+ Discord.lnk*                           Notion.lnk*                 hpdiagnostics/
+ Evernote.lnk*                         'Old Firefox Data'/          my_first_copy.txt
+'GitHub Desktop.lnk'*                   PicDesktop/                 project/
+ Grammarly.lnk*                        'Pictures - Shortcut.lnk'*
+'Interesting Finds Updated Daily.url'   Projects/
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/desktop
+$ start my_first_copy.txt
+
+arion@LAPTOP-HCL9NMMQ MINGW64 ~/onedrive/desktop
+$
